@@ -45,9 +45,11 @@ int main()
     rectangulos.push_back(rect2);
     rectangulos.push_back(rect3);
 
-    for(int i=0; i>=rectangulos.size(); i++){
+    for(int i=0; i<rectangulos.size(); i++){
 
         rectangulos[i].getArea();
+        cout <<"El area de el rectangulo "<< i+1 << " es: "<< endl;
+        cout<< rectangulos[i].getArea()<< endl;
 
     }
 
